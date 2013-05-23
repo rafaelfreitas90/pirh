@@ -14,7 +14,7 @@ public class FabricaDeEntityManager {
     @ApplicationScoped
     public EntityManagerFactory criarEntityManagerFactory() {
         System.out.println("Criando factory");
-        return Persistence.createEntityManagerFactory("ProjetoInter3");
+        return Persistence.createEntityManagerFactory("ProjetoInter3PU");
     }
 
     @Produces
